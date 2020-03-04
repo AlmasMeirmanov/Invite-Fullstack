@@ -6,7 +6,7 @@ export default props => {
   return (
     <div>
       {notgoing.map(item => (
-        <div className="going">
+        <div className="notgoing">
           <img src={item.image}></img>
           <p>{item.name}</p>
           <p>{item.phone}</p>
